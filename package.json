@@ -3,12 +3,15 @@
   "description": "Module to parse xbrl documents and output json.",
   "version": "1.1.4",
   "dependencies": {
-    "bluebird": "^3.3.1",
-    "lodash": "^4.5.1",
-    "xml2json": "^0.9.0"
+    "bluebird": "^3.7.2",
+    "lodash": "^4.17.15",
+    "xml2json": "^0.12.0"
   },
   "main": "index.js",
-  "files": ["FundamentalAccountingConcepts.js", "index.js"],
+  "files": [
+    "FundamentalAccountingConcepts.js",
+    "index.js"
+  ],
   "scripts": {
     "ex00": "node ./examples/ex00.js",
     "test": "jasmine-node test/index.spec.js"

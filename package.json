@@ -10,6 +10,7 @@
   "main": "index.js",
   "files": ["FundamentalAccountingConcepts.js", "index.js"],
   "scripts": {
+    "ex00": "node ./examples/ex00.js",
     "test": "jasmine-node test/index.spec.js"
   },
   "publishConfig": {

@@ -1,3 +1,5 @@
+This is a fork of https://github.com/emilycoco/parse-xbrl
+
 # parse-xbrl
 
 Module to parse xbrl documents and output json.
